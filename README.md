@@ -15,7 +15,7 @@ FATMUG Django Developer Assesment :
                 PurchaseOrderSerializer: Serializes and deserializes PurchaseOrder objects.
                 HistoricalPerformanceSerializer: Serializes and deserializes HistoricalPerformance objects.
 
-    ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/ac50ecb2-b613-467e-9435-aaa820f63358)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/ac50ecb2-b613-467e-9435-aaa820f63358)
 
 # Views:
 
@@ -59,45 +59,45 @@ FATMUG Django Developer Assesment :
    
     . No unauthorized Person is allowed to GET and POST the vendor details 
     
-        ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/021a5994-21e8-463c-ad80-a7a957a4a86d)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/021a5994-21e8-463c-ad80-a7a957a4a86d)
 
     . Generate a new TOKEN by passing the username and password of USERS. 
 
-    ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/cd108c38-b17e-48a2-bcb2-fe9e70d8b0b7)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/cd108c38-b17e-48a2-bcb2-fe9e70d8b0b7)
 
     . Paste this new token in AUTH Bearer Token and then try to POST the data 
 
-    ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/7a9d7d4b-1af9-4c74-bd40-cef96b120ac7)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/7a9d7d4b-1af9-4c74-bd40-cef96b120ac7)
 
-    .![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/5bf650af-45cf-4a90-bac4-635d1d7f45db)
+.![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/5bf650af-45cf-4a90-bac4-635d1d7f45db)
 
-    . We cannot post the data with the same vendor id 
+. We cannot post the data with the same vendor id 
 
-    ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/f8dd8322-9549-4822-b925-12b9d3c2f58b)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/f8dd8322-9549-4822-b925-12b9d3c2f58b)
 
     . Now GET the details of all the vendors 
 
-    ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/95c3ade3-9e35-4bc7-89b5-b32ecd0894b4)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/95c3ade3-9e35-4bc7-89b5-b32ecd0894b4)
 
     . GET the details of vendor with the id 
-    ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/6865fb56-1efe-4d71-8178-c57cff67f00e)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/6865fb56-1efe-4d71-8178-c57cff67f00e)
 
      . If there is no vendor present in the specific id then it shows error 
-     ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/9ef70a89-68fc-4ab6-be43-aa0085f72668)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/9ef70a89-68fc-4ab6-be43-aa0085f72668)
 
      . Update the data using PUT method
 
-     ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/641f9673-872b-4ba3-8e59-d61bfc470f38)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/641f9673-872b-4ba3-8e59-d61bfc470f38)
 
      . GET the data of same vendor we will find the the data will updated successfully 
 
-     ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/88535551-8fa4-4774-93bf-8959fef0f4d3)
+ ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/88535551-8fa4-4774-93bf-8959fef0f4d3)
 
      . DELETE the data of the vendor 
      
-     ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/8fd4d25f-33d6-449b-9efa-9e55e328270d)
+ ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/8fd4d25f-33d6-449b-9efa-9e55e328270d)
      
-     ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/ef5f3004-c1da-4847-992c-e20cda2b49d6)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/ef5f3004-c1da-4847-992c-e20cda2b49d6)
 
 
 
