@@ -3,10 +3,10 @@ FATMUG Django Developer Assesment :
 #  MODELS :
 
            . Vendor :  Represents a vendor with fields such as name, contact details, address, and vendor code.
-           . PurchaseOrder :  Represents a purchase order with fields like PO number, vendor (foreign key to Vendor), order date, delivery date, items, quantity, status, quality rating, issue date, and acknowledgment date.
-           . HistoricalPerformance : Stores historical performance data for vendors, including fields like vendor (foreign key to Vendor), date, on-time delivery rate, quality rating average, average response time, and fulfillment rate.  
+           . PurchaseOrder :  Represents a purchase order with fields like PO number, vendor (foreign key to Vendor), order date, delivery date, items, quantity, status, quality rating,                   issue date, and acknowledgment date.
+           . HistoricalPerformance : Stores historical performance data for vendors, including fields like vendor (foreign key to Vendor), date, on-time delivery rate, quality rating                       average, average response time, and fulfillment rate.  
            
-    ![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/6b9ec17f-c715-408c-ab16-63219d4f7d43)
+![image](https://github.com/prateeksingh4435/VendorManagementSystem/assets/128826031/6b9ec17f-c715-408c-ab16-63219d4f7d43)
 
 
 # Serializers :
