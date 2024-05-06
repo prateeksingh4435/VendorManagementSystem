@@ -63,8 +63,6 @@ def vendor_detail(request,id):
     
     
 #PurchaseOrder
-
-
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def create_purchase(request):
@@ -186,10 +184,7 @@ def vendorperformance(request, id):
     except Vendor.DoesNotExist:
         return Response({'status': 404, 'msg': 'Vendor not found'})
     
-    try:
-        purchase_order = PurchaseOrder.objects.get(id=id)
-    except Exception as e:
-        return Response({'status': 404, 'msg': 'Purchase order of this id is not found'})
+    
         
     deliveryrate = delivery_rate(vendor)
     quality_rating = qualityrating(vendor)
